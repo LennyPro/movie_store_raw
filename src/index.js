@@ -1,17 +1,24 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+// 	npx create-react-app name-folder
+// 	install bootstrap
+// "@fortawesome/fontawesome-svg-core": "^6.4.0",
+// "@fortawesome/free-solid-svg-icons": "^6.4.0",
+// "@fortawesome/react-fontawesome": "^0.2.0",
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // component that recieves icon={}
+// import { faStar } from '@fortawesome/free-solid-svg-icons'; // icon for component above
+//  render <FontAwesomeIcon icon={faStar} />
+
