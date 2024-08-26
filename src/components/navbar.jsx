@@ -6,7 +6,7 @@ const NavBar = ({ totalCounters }) => {
             <p>navbar.jsx</p>
             <nav className='navbar navbar-light bg-light m-4'>
                 <a>
-                    NavBar{" active counters:  "}
+                    NavBar{" || active counters:  "}
                     <span>{totalCounters}</span>
                 </a>
             </nav>
